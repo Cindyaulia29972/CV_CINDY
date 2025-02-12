@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>CV - Cindy Aulia Rahmadani</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
@@ -17,16 +16,17 @@
             max-width: 800px;
             margin: auto;
             background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             text-align: center;
-            color: #000000;
+            color: #2a2a2a;
         }
         h2 {
-            border-bottom: 2px solid #080808;
+            margin-top: 40px;
+            border-bottom: 2px solid #2a2a2a;
             padding-bottom: 5px;
         }
         ul {
@@ -36,74 +36,78 @@
         li {
             margin-bottom: 10px;
         }
+        .section-title {
+            font-weight: bold;
+            color: #2a2a2a;
+        }
+        .contact-link {
+            text-align: center;
+            margin-top: 30px;
+        }
         a {
-            color: #030303;
+            color: #4CAF50;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        .contact-link {
+        .profile-header {
             text-align: center;
-            margin-top: 20px;
+            margin-bottom: 20px;
         }
-        .profile-pic {
-            display: block;
-            margin: 0 auto 20px;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
+        .profile-header p {
+            font-size: 16px;
+            color: #555;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>CV</h1>
-        <img src="C:\xampp\htdocs\CindyAulia-SI2B\latihan1\assets\Bernadya.jpg" alt="Foto Profil" class="profile-pic"> <!-- Ganti dengan path foto Anda -->
-        
-        <h2>Nama</h2>
-        <p>Cindy Aulia Rahmadani</p>
+        <!-- Header with Name and Contact Info -->
+        <div class="profile-header">
+            <h1>Cindy Aulia Rahmadani</h1>
+            <p>Mahasiswa D3 Sistem Informasi - Politeknik Negeri Subang</p>
+            <p>Email: <a href="mailto:rahmadanicindy29@gmail.com">rahmadanicindy29@gmail.com</a> | HP: +62 831 4906 5570</p> 
+            <p>Alamat: Kuningan, Jawa Barat, Indonesia</p>
+            </p>
+        </div>
 
-        <h2>Alamat</h2>
-        <p>Kuningan, Jawa Barat, Indonesia</p>
-
-        <h2>No HP</h2>
-        <p>+62 831 4906 5570</p>
-
-        <h2>Email</h2>
-        <p>rahmadanicindy29@gmail.com</p>
-
+        <!-- Pendidikan -->
         <h2>Pendidikan</h2>
         <ul>
-            <li>IPS, SMAN 1 Mandirancan, 2022</li>
-            <li>D3 Sistem Informasi - Politeknik Negeri Subang, Sekarang </li>
+            <li><span class="section-title">2022</span> - IPS, SMAN 1 Mandirancan</li>
+            <li><span class="section-title">Sekarang</span> - D3 Sistem Informasi, Politeknik Negeri Subang</li>
         </ul>
 
+        <!-- Organisasi -->
         <h2>Organisasi</h2>
         <ul>
-            <li>Anggota Himpunan Mahasiswa Teknologi Informasi dan Komputer</li>
-            <li>Panitia Divisi Relasi Digital Festival 2024 Politeknik Negeri Subang</li>
-            <li>Panitia Mabim 2024Politeknik Negeri Subang</li>
+            <li><span class="section-title">2024</span> - Anggota Himpunan Mahasiswa Teknologi Informasi dan Komputer</li>
+            <li><span class="section-title">2024</span> - Panitia Divisi Relasi Digital Festival 2024, Politeknik Negeri Subang</li>
+            <li><span class="section-title">2024</span> - Panitia Divisi Mentor Mabim 2024, Politeknik Negeri Subang</li>
+            <li><span class="section-title">2025</span> - Ketua Pelaksana Workshop Kewirausahaan 2025, Politeknik Negeri Subang</li>
         </ul>
 
+        <!-- Proyek -->
         <h2>Project</h2>
         <ul>
-            <li>Membuat Aplikasi Kasir menggunakan Excel VBA pada UMKM Sari Rasa</li>
-            <li>Membuat Sistem Informasi Website Caffe </li>
+            <li><span class="section-title">2024</span> - Aplikasi Kasir untuk UMKM Sari Rasa menggunakan Excel VBA</li>
+            <li><span class="section-title">2024</span> - Sistem Informasi Website untuk Caffe</li>
         </ul>
 
-        <h2>Skill</h2>
+        <!-- Keahlian -->
+        <h2>Keahlian</h2>
         <ul>
-            <li>Bekerjasama Team, Bertanggung Jawab</li>
-            <li>Excel, Word</li>
-            <li>Database Management (MySQL, MongoDB)</li>
-            <li> UI/UX</li>
+            <li><span class="section-title">Soft Skills:</span> Bekerjasama dalam Tim, Bertanggung Jawab</li>
+            <li><span class="section-title">Technical Skills:</span> Microsoft Excel, Microsoft Word, Database Management (MySQL, MongoDB), UI/UX Design</li>
         </ul>
 
+        <!-- Link Kontak -->
         <div class="contact-link">
-            <p>Jika Anda ingin menghubungi saya, silakan <a href="context.html">klik di sini</a>.</p>
+            <p>Untuk informasi lebih lanjut, silakan <a href="context.html">hubungi saya di sini</a>.</p>
         </div>
     </div>
+
 </body>
 </html>
